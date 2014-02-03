@@ -3,3 +3,12 @@ What would the world be like without the normal curve?
 
 Once upon a time there was a land called Praxis. Mr and Mrs Boxy lived there happily in 01 Uniform, Distribution. 
 
+They were content in this land. They made many babies. Here is a family portrait.
+```{r, echo=FALSE}
+library(ggplot2)
+
+x <- runif(1000)
+qplot(x) + ggtitle("Uniform Babies")
+```
+
+
