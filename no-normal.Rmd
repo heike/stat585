@@ -11,4 +11,7 @@ x <- runif(1000)
 qplot(x) + ggtitle("Uniform Babies")
 ```
 
-
+They often took their children to hike the uneven peaks of Gammamountain.
+```{r, echo=FALSE}
+qplot(rgamma(1000, 3, 4)) + ggtitle("Gammamountain")
+```
