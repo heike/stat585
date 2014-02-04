@@ -15,3 +15,10 @@ They often took their children to hike the uneven peaks of Gammamountain.
 ```{r, echo=FALSE}
 qplot(rgamma(1000, 3, 4)) + ggtitle("Gammamountain")
 ```
+
+Little did they know that the Gammamountains are the home of the February 29th movement; a revolutionary rebel group led by General Zod fighting the kleptocratic loyalist government.  As a defensive measure against loyalist forces, General Zod has deployed a series of spike traps.  These spike traps are aptly named "Dirac Delta Deathtraps":
+```{r, echo=FALSE}
+x = seq(-5, 5, by = 0.05)
+y = rep(1, length(x))
+plot(x,y,type="h",xlim=c(-0.6,0.6),ylim=c(0,2))
+```
