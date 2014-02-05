@@ -22,3 +22,12 @@ x = seq(-5, 5, by = 0.05)
 y = rep(1, length(x))
 plot(x,y,type="h",xlim=c(-0.6,0.6),ylim=c(0,2))
 ```
+
+Oblivious, the family started making their way up the mountain.
+```{r, echo=FALSE}
+r = runif(30,0,2)
+x = c(1:30)
+x=r+x
+y = c(1:30)
+qplot(x,y) + geom_line()
+```
