@@ -8,7 +8,7 @@ They were content in this land. They made many babies. Here is a family portrait
 library(ggplot2)
 
 x <- runif(1000)
-qplot(x) + ggtitle("Uniform Babies")
+qplot(x, binwidth=0.05) + ggtitle("Uniform Babies")
 ```
 
 They often took their children to hike the uneven peaks of Gammamountain.
@@ -34,6 +34,6 @@ qplot(x,y) + geom_line()
 
 On they way up Gammamountian, a booming voice from the sky declared "LET ALPHA BE 1, FOR IT PLEASES ME." Luckily, the Boxy family brought their sleds and enjoyed their ride down the new of Gammamountain. But on their way down, the forgot everything they had ever known, as if they were memoryless.
 ```{r, echo = FALSE}
-qplot(rexp(1000, 4)) + ggtitle("The New Gammamountain")
+qplot(rexp(1000, 4), binwidth=0.05) + ggtitle("The New Gammamountain")
 
 ```
