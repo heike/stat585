@@ -35,5 +35,7 @@ qplot(x,y) + geom_line()
 On they way up Gammamountian, a booming voice from the sky declared "LET ALPHA BE 1, FOR IT PLEASES ME." Luckily, the Boxy family brought their sleds and enjoyed their ride down the new of Gammamountain. But on their way down, the forgot everything they had ever known, as if they were memoryless.
 ```{r, echo = FALSE}
 qplot(rexp(1000, 4), binwidth=0.05) + ggtitle("The New Gammamountain")
-
 ```
+
+
+And so the normal curve staid the elusive beast.
