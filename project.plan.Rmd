@@ -34,4 +34,4 @@ I have many ideas for this project, and I've listed them all here. I probably wo
 * Is there a connection between campaign spending and congressional productivity? I suspect there might be, and that they might both be affected by ideological differences between parties.
 * What characterizes a productive congress? What characterizes a "do-nothing" congress? How should the country vote to make sure the 114th and future congresses are not do-nothing?
 * Bonus: What does the history of women in congress look like?
-* Super Bonus: Can I make a Shiny app that aggregates all (or part of) of the Vital Statistics on Congress so that future interested parties can easily visualize these statistics for themselves and their district? 
+* SUPER Bonus: Can I make a Shiny app that aggregates all (or part of) of the Vital Statistics on Congress so that future interested parties can easily visualize these statistics for themselves and their district? 
