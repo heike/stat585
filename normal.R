@@ -6,3 +6,4 @@ qqnorm(mydata)
   #which are known to have a mean of 65 inches and standard deviation of 3.5 inches.
 heights<-rnorm(100,mean=50,sd=3.5)
 
+heights_men<-rnorm(100,mean=70,sd=3.8)
